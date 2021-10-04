@@ -1,0 +1,609 @@
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 600px) {
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+}
+
+/* @media only screen and (max-width: 1150px) {
+.about .Fabt{
+    height: 300px;
+}
+} */
+
+
+@media only screen and (max-width: 900px) {
+
+    .about .Fabt{
+        height: auto;
+    }
+    
+
+    .ff .of .rf input {
+        width: auto;
+    }
+
+    .ff .of .rf textarea{
+        width: auto;
+    }
+
+    .ff .of {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ff .of .lf{
+        width: auto;
+    }
+
+    .ff .of .rf{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .ff .of .rf #text{
+        width: autopx;
+    }
+
+    .ff .of .rf textarea{
+        width: auto;
+    }
+
+    
+
+/* 
+.navbar{
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+}
+
+.list{
+    flex-direction: column;
+}
+
+.rightnav{
+    text-align: center;
+}
+
+#searchbar{
+    width: 100%;
+}
+
+.burger{
+    display: block;
+}
+
+.h-nav-resp{
+    height: 72px;
+}
+
+.v-class-resp{
+    opacity: 0;
+} */
+
+}
+
+
+@media only screen and (max-width: 992px){
+    
+.navbar{
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+    height: 250px;
+}
+
+.list{
+    flex-direction: column;
+}
+
+.leftnav{
+    width: 100%;
+    /* justify-content: center; */
+}
+
+.leftnav img{
+    border-radius: 25px;
+    margin: 4px;
+    margin-left: 10px;
+    height: 35px;
+}
+
+.midnav{
+    width: 100%;
+}
+
+.rightnav{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.rightnav #searchbar{
+    text-align: center;
+    height: 25px;
+}
+
+.burger{
+    display: block;
+}
+
+.h-nav-resp{
+    height: 45px;
+}
+
+.v-class-resp{
+    opacity: 0;
+}
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .about .Fabt{
+        flex-direction: column;
+    }
+
+    .about .Fabt .Iabt {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .qal .university{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .qal .university li{
+        list-style: none;
+    }
+
+    .skill .lang{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skill .lang li{
+        list-style: none;
+    }
+
+    .wid .ido{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wid .ido li{
+        list-style: none;
+    }
+
+
+    .ff .of .rf textarea {
+        width: auto;
+    }
+    .ff .of .rf input {
+        width: auto;
+    }
+
+.ff .of .rf #text {
+    width: auto;
+}
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+.about .Fabt .Iabt img {
+    height: 300px;
+    margin: 22px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .info {
+        flex-direction: column;
+        flex-direction: column;
+    }
+   
+    .ff .of .rf #text {
+        width: 200px;
+    }
+
+    .ff .of .rf textarea {
+        width: 200px;
+    }
+
+    .ff .of .lf .llf {
+        flex-direction: column;
+    }
+
+    .ff .of .lf .llf .llf1 {
+        width: auto;
+        margin: 10px;
+    }
+
+    .ff .of .lf .llf .llf2 {
+        width: auto;
+        margin: 10px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    
+    .info {
+        flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .about .Fabt .Iabt img {
+        border-radius: 90px;
+        height: 150px;
+    }
+    
+    
+.ff .of .lf .ulf .ulfi ul {
+    flex-wrap: wrap;
+}
+.background .Sintro .hi {
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+
+.background .Sintro{
+    font-size: 12px;
+}
+.about .Habt p{
+    font-size: 18px;
+}
+.qal .Hqal p{
+    font-size: 18px;
+}
+
+.qal .university .school p {
+    font-size: 18px;
+}
+.qal .university .clg p {
+    font-size: 18px;
+}
+.qal .university .iti p {
+    font-size: 18px;
+}
+
+.qal .university .school .cls ul {
+    font-size: 12px;
+}
+.qal .university .clg .sem ul {
+    font-size: 12px;
+}
+.qal .university .iti .year ul {
+    font-size: 12px;
+}
+
+.skill .Hskill p{
+    font-size: 18px;
+}
+.wid .Hwid p{
+    font-size: 18px;
+}
+
+.ff .ffh p{
+    font-size: 18px;
+}
+
+.skill .lang .PH p{font-size: 18px;}
+.skill .lang .SH p{font-size: 18px;}
+.skill .lang .SH ul{font-size: 12px;}
+.skill .lang .PH ul{font-size: 12px;}
+
+.wid .ido .WD p{font-size: 18px;}
+.wid .ido .PD p{font-size: 18px;}
+.wid .ido .AD p{font-size: 18px;}
+
+.wid .ido .WD .weap p{font-size: 15px;}
+.wid .ido .PD .weap p{font-size: 15px;}
+.wid .ido .AD .weap p{font-size: 15px;}
+
+.wid .ido .WD .weap ul{font-size: 12px;}
+.wid .ido .PD .weap ul{font-size: 12px;}
+.wid .ido .AD .weap ul{font-size: 12px;}
+
+.project .Hpro p{font-size: 18px;}
+.project .Dpro p{font-size: 18px;}
+
+.bline {
+    width: 25px;
+    height: 3px;
+}
+
+.footer .dot img {
+    height: 8px;
+}
+
+.footer .cr {
+    font-size: 8px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 283px){
+
+    .ff .of .rf #text {
+        width: 100px;
+    }
+
+    .ff .of .rf textarea {
+        width: 100px;
+        height: 80px;
+    }
+
+    .ff .of .rf input {
+        width: 100px;
+    }
+
+    .info .hinfo {
+        font-size: 12px;
+        margin: 0px 12px;
+    }
+    
+    .info .ainfo ul {
+        font-size: 12px;
+        margin: 0px 12px;
+    }
+
+    .about .Fabt .Pabt p {
+        word-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .about .Fabt .Iabt img {
+        height: 65px;
+    }
+
+    .ff .of .lf .llf .llf1 .llf1e p {
+        font-size: 10px;
+    }
+
+    
+
+    .background .Sintro{
+        font-size: 10px;
+    }
+    .about .Habt p{
+        font-size: 15px;
+    }
+    .qal .Hqal p{
+        font-size: 15px;
+    }
+    
+    .qal .university .school p {
+        font-size: 15px;
+    }
+    .qal .university .clg p {
+        font-size: 15px;
+    }
+    .qal .university .iti p {
+        font-size: 15px;
+    }
+    
+    .qal .university .school .cls ul {
+        font-size: 10px;
+    }
+    .qal .university .clg .sem ul {
+        font-size: 10px;
+    }
+    .qal .university .iti .year ul {
+        font-size: 10px;
+    }
+    
+    .skill .Hskill p{
+        font-size: 15px;
+    }
+    .wid .Hwid p{
+        font-size: 15px;
+    }
+    
+    .ff .ffh p{
+        font-size: 15px;
+    }
+    
+    .skill .lang .PH p{font-size: 15px;}
+    .skill .lang .SH p{font-size: 15px;}
+    .skill .lang .SH ul{font-size: 10px;}
+    .skill .lang .PH ul{font-size: 10px;}
+    
+    .wid .ido .WD p{font-size: 15px;}
+    .wid .ido .PD p{font-size: 15px;}
+    .wid .ido .AD p{font-size: 15px;}
+    
+    .wid .ido .WD .weap p{font-size: 13px;}
+    .wid .ido .PD .weap p{font-size: 13px;}
+    .wid .ido .AD .weap p{font-size: 13px;}
+    
+    .wid .ido .PD .weap ul{font-size: 10px;}
+    .wid .ido .WD .weap ul{font-size: 10px;}
+    .wid .ido .AD .weap ul{font-size: 10px;}
+
+    .project .Hpro p{font-size: 15px;}
+    .project .Dpro p{font-size: 15px;}
+    
+    .bline {
+        width: 20px;
+        height: 2px;
+    }
+
+    .footer .dot img {
+        height: 6px;
+    }
+    
+    .footer .cr {
+        font-size: 6px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+
+    .project .Dpro {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .project .Dpro .p123{
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    .project .Dpro .p456{
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    .project .Dpro .p789{
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    .project .Dpro .p112{
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 335px){
+
+    .project .Dpro .p123 {
+        width: -webkit-fill-available;
+    }
+    .project .Dpro .p456 {
+        width: -webkit-fill-available;
+    }
+    .project .Dpro .p789 {
+        width: -webkit-fill-available;
+    }
+    .project .Dpro .p112 {
+        width: -webkit-fill-available;
+    }
+
+    .project .Dpro .p123 .pro1 .img1 img{
+        height: 100px;
+    }
+    .project .Dpro .p123 .pro2 .img2 img{
+        height: 100px;
+    }
+    .project .Dpro .p123 .pro3 .img3 img{
+        height: 100px;
+    }
+    
+    .project .Dpro .p456 .pro4 .img4 img{
+        height: 100px;
+    }
+    .project .Dpro .p456 .pro5 .img5 img{
+        height: 100px;
+    }
+    .project .Dpro .p456 .pro6 .img6 img{
+        height: 100px;
+        
+    }
+    .project .Dpro .p789 .pro7 .img7 img{
+        height: 100px;
+    }
+    
+    .project .Dpro .p789 .pro8 .img8 img{
+        height: 100px;
+    }
+    
+    .project .Dpro .p789 .pro9 .img9 img{
+        height: 100px;
+    }
+    
+
+.project .Dpro .p112 .pro10 .img10 img{
+    height: 100px;
+}
+
+.project .Dpro .p112 .pro11 .img11 img{
+    height: 100px;
+}
+
+.project .Dpro .p112 .pro12 .img12 img{
+    height: 100px;
+}
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 200px){
+
+    .project .Dpro .p123 .pro1 .img1 img{
+        height: 60px;
+    }
+    .project .Dpro .p123 .pro2 .img2 img{
+        height: 60px;
+    }
+    .project .Dpro .p123 .pro3 .img3 img{
+        height: 60px;
+    }
+    
+    .project .Dpro .p456 .pro4 .img4 img{
+        height: 60px;
+    }
+    .project .Dpro .p456 .pro5 .img5 img{
+        height: 60px;
+    }
+    .project .Dpro .p456 .pro6 .img6 img{
+        height: 60px;
+        
+    }
+    .project .Dpro .p789 .pro7 .img7 img{
+        height: 60px;
+    }
+    
+    .project .Dpro .p789 .pro8 .img8 img{
+        height: 60px;
+    }
+    
+    .project .Dpro .p789 .pro9 .img9 img{
+        height: 60px;
+    }
+    
+
+.project .Dpro .p112 .pro10 .img10 img{
+    height: 60px;
+}
+
+.project .Dpro .p112 .pro11 .img11 img{
+    height: 60px;
+}
+
+.project .Dpro .p112 .pro12 .img12 img{
+    height: 60px;
+}
+
+}
