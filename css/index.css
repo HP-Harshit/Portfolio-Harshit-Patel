@@ -200,6 +200,7 @@ html {
 
 .info .ainfo ul .mail{
     word-wrap: break-word;
+    word-break: break-all;
 }
 
 /* .qal{
